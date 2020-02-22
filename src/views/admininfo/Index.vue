@@ -66,7 +66,7 @@
                                 <Col span="6">
                                     <Form-item label="上传图片">
                                     <Upload
-                                        action="http://mchapi.globalinfluence.cn/admin.php/admin/system/upload"
+                                        action="http://api.ymkp.org.cn/admin.php/admin/system/upload"
                                         :on-success="uploadSuccessImg">
                                         <Button icon="ios-cloud-upload-outline">上传文件</Button>
                                     </Upload>

@@ -53,7 +53,7 @@
                 <Form-item label="上传头像">
                 <Upload
                     ref="uploadFile"
-                    action="http://mchapi.globalinfluence.cn/admin.php/admin/system/upload"
+                    action="http://api.ymkp.org.cn/admin.php/admin/system/upload"
                     :on-success="uploadSuccess">
                     <Button icon="ios-cloud-upload-outline">上传文件</Button>
                 </Upload>
